@@ -206,7 +206,7 @@
      margin-top: 80px;
  }
 
-  .exp-10 {
+ .exp-10 {
      border-radius: 3px;
      background: rgb(255, 144, 14);
      border: none;
@@ -216,9 +216,104 @@
      position: absolute;
      top: 2140px;
      right: 496px;
-   
-    
- } 
+
+
+ }
+
+ .some-facts-h2 {
+     color: rgb(19, 19, 19);
+     font-size: 1.7rem;
+     font-weight: 700;
+     line-height: 53px;
+     letter-spacing: 0%;
+     text-align: left;
+ }
+
+ .some-facts-p {
+     color: rgb(114, 114, 114);
+     font-size: 0.7rem;
+     font-weight: 400;
+     line-height: 1rem;
+     letter-spacing: 0%;
+     text-align: left;
+ }
+
+ .some-facts-img-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 40px;
+
+ }
+
+ .facts-img {
+     border: 1px solid rgb(255, 144, 14);
+     border-radius: 5px;
+     padding: 10px;
+
+ }
+
+ .some-fact {
+     margin-top: 120px;
+ }
+
+ .our-sponspor-h {
+     text-align: center;
+     color: rgb(19, 19, 19);
+     font-size: 2rem;
+     font-weight: 700;
+     letter-spacing: 0%;
+
+ }
+
+ .our-sponspor-p {
+     text-align: center;
+     color: rgb(114, 114, 114);
+     font-size: 0.7rem;
+     font-weight: 400;
+     line-height: 26px;
+     letter-spacing: 0%;
+     text-align: center;
+ }
+
+ .logo-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+
+ }
+
+ .logo-img img {
+     width: 100%;
+     gap: 20px;
+ }
+
+ .our-sponspor {
+     margin-top: 50px;
+ }
+
+ .footer-item {
+     text-align: center;
+     padding-top: 40px;
+ }
+
+ footer {
+     border-radius: 8px;
+
+     background: rgb(255, 244, 231);
+     margin: 50px 240px;
+
+     height: 100px;
+ }
+
+
+
+
+
+
+
+
 
 
 
@@ -277,6 +372,21 @@
      .feathuer-love-img img {
          width: 100%;
      }
+
+     .some-facts-img-container {
+         flex-direction: column;
+         margin: auto;
+         width: 100%;
+     }
+     .logo-container{
+        flex-direction: column;
+     }
+     footer{
+        padding: 0px;
+     }
+
+
+
  }
 
  /* responsive for medium device */
